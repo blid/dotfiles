@@ -1,6 +1,6 @@
 export PATH="$PATH:$HOME/bin" 
 
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra,profile,rvm}; do
+for file in ~/.{path,bash_prompt,appfixes,exports,aliases,functions,extra,profile,rvm}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

@@ -1,0 +1,4 @@
+# Needed to install/compile apps or gems 
+
+# for pg gem, see http://stackoverflow.com/questions/9668753/rails-3-cant-install-pg-gem
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin"
