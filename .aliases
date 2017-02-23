@@ -7,11 +7,13 @@ alias .....="cd ../../../.."
 alias dl="cd ~/Downloads"
 alias p="cd ~/Projects"
 alias l="cd ~/Lab"
+alias desk="cd ~/Desktop"
 alias g="git"
 alias h="history"
+alias be="bundle exec"
 
 # update time
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g;'
 
 # simply love it
 alias stfu="osascript -e 'set volume output muted true'"
