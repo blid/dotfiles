@@ -3,6 +3,12 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# overwrites
+alias diff="diff-so-fancy"
+alias cat="bat"
+alias ls="exa"
+alias lf="exa -lahF"
+
 # shortcuts
 alias dl="cd ~/Downloads"
 alias p="cd ~/Projects"

@@ -10,6 +10,15 @@ cd dotfiles
 ./bootstrap.sh
 ```
 
+## Resources
+
+See [awesome command line tools](https://www.vimfromscratch.com/articles/awesome-command-line-tools/) too see description of some tools I use. 
+
+## TODO
+
+Use asdf for ruby / node / elixir version management.
+
+
 ## License
 
 WTFPL

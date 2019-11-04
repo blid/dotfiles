@@ -5,6 +5,14 @@ function doIt() {
 	source ~/.zsh_profile;
 }
 
+function installEssentialSoftware() {
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew install git tldr bat exa fd diff-so-fancy
+
+	# set some defaults
+	git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+}
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt;
 else
